@@ -46,8 +46,13 @@ dependencies {
 }
 
 subprojects {
+    apply plugin: 'java'
+    apply plugin: 'io.spring.dependency-management'
+    group: 'com.github.fac30ff.boot-yourself'
     dependencies {
         compile 'org.springframework.boot:spring-boot-starter'
+        compileOnly 'org.projectlombok:lombok'
+        compileOnly 'org.springframework.boot:spring-boot-configuration-processor'
     }
 }
 

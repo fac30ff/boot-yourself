@@ -2,25 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d640229-61d6-4f6b-bcb9-d9ea3eb57ae7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/iron-starter/src/main/java/com/github/fac30ff/ironbank/IronConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iron-starter/src/main/java/com/github/fac30ff/ironbank/RavenListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iron-starter/src/main/resources/META-INF/spring.factories" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/fac30ff/ironbank/moneyraven/MoneyRavenApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/fac30ff/ironbank/moneyraven/ProfileConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/fac30ff/ironbank/moneyraven/controller/IronBankController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/fac30ff/ironbank/moneyraven/dao/MoneyDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/fac30ff/ironbank/moneyraven/model/Bank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/fac30ff/ironbank/moneyraven/service/NameBasedProphetService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/fac30ff/ironbank/moneyraven/service/ProphetService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/fac30ff/ironbank/moneyraven/service/TransferMoneyProphecyBackend.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/fac30ff/ironbank/moneyraven/service/TransferMoneyService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/spring.factories" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iron-starter/src/main/java/com/github/fac30ff/ironbank/RavenProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iron-starter/src/main/java/com/github/fac30ff/ironbank/annotation/ConditionOnProduction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iron-starter/src/main/java/com/github/fac30ff/ironbank/annotation/ConditionalOnRaven.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iron-starter/src/main/java/com/github/fac30ff/ironbank/annotation/OnConditionProduction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iron-starter/src/main/java/com/github/fac30ff/ironbank/annotation/OnRavenConditional.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/fac30ff/ironbank/moneyraven/MyRavenListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/fac30ff/ironbank/moneyraven/model/ProphetProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/fac30ff/ironbank/moneyraven/service/WhiteListBasedProphetService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iron-starter/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/iron-starter/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iron-starter/src/main/java/com/github/fac30ff/ironbank/IronConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/iron-starter/src/main/java/com/github/fac30ff/ironbank/IronConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iron-starter/src/main/java/com/github/fac30ff/ironbank/RavenListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/iron-starter/src/main/java/com/github/fac30ff/ironbank/RavenListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/fac30ff/ironbank/moneyraven/MoneyRavenApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/fac30ff/ironbank/moneyraven/MoneyRavenApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/fac30ff/ironbank/moneyraven/model/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/fac30ff/ironbank/moneyraven/model/Bank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/fac30ff/ironbank/moneyraven/service/NameBasedProphetService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/fac30ff/ironbank/moneyraven/service/NameBasedProphetService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/fac30ff/ironbank/moneyraven/service/ProphetService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/fac30ff/ironbank/moneyraven/service/ProphetService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/fac30ff/ironbank/moneyraven/service/TransferMoneyProphecyBackend.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/fac30ff/ironbank/moneyraven/service/TransferMoneyProphecyBackend.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/fac30ff/ironbank/moneyraven/service/TransferMoneyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/fac30ff/ironbank/moneyraven/service/TransferMoneyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -42,82 +43,41 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/fac30ff/ironbank/moneyraven/MoneyRavenApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#207#208#0" expanded="true" />
-                <element signature="e#273#274#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/iron-starter/build.gradle">
+        <entry file="file://$PROJECT_DIR$/iron-starter/src/main/java/com/github/fac30ff/ironbank/annotation/OnRavenConditional.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="308">
-              <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/iron-starter/src/main/java/com/github/fac30ff/ironbank/RavenListener.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="48" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
+              <caret line="14" column="65" selection-start-line="14" selection-start-column="65" selection-end-line="14" selection-end-column="65" />
               <folding>
-                <element signature="e#155#156#0" expanded="true" />
-                <element signature="e#185#186#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#256#257#0" expanded="true" />
+                <element signature="e#291#292#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/iron-starter/src/main/java/com/github/fac30ff/ironbank/IronConfiguration.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/fac30ff/ironbank/moneyraven/model/ProphetProperties.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="154">
+              <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
               <folding>
-                <element signature="e#95#96#0" expanded="true" />
-                <element signature="e#130#131#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="461">
-              <caret line="44" selection-start-line="44" selection-end-line="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/spring.factories">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/iron-starter/src/main/resources/META-INF/spring.factories">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/fac30ff/ironbank/moneyraven/model/Bank.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="39" selection-start-column="39" selection-end-column="39" />
+            <state relative-caret-position="154">
+              <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#158#159#0" expanded="true" />
+                <element signature="e#189#190#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -125,12 +85,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/github/fac30ff/ironbank/moneyraven/controller/IronBankController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+            <state relative-caret-position="141">
+              <caret line="19" column="46" lean-forward="true" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#720#721#0" expanded="true" />
-                <element signature="e#779#780#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -140,7 +98,63 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/github/fac30ff/ironbank/moneyraven/service/TransferMoneyService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="66">
+              <caret line="3" column="51" selection-start-line="3" selection-start-column="51" selection-end-line="3" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/fac30ff/ironbank/moneyraven/service/TransferMoneyProphecyBackend.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/fac30ff/ironbank/moneyraven/service/ProphetService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
               <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/fac30ff/ironbank/moneyraven/service/NameBasedProphetService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/fac30ff/ironbank/moneyraven/service/WhiteListBasedProphetService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#306#307#0" expanded="true" />
+                <element signature="e#381#382#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/fac30ff/ironbank/moneyraven/ProfileConstants.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -150,6 +164,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -161,20 +176,33 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/main/java/com/github/fac30ff/ironbank/moneyraven/service/ProphetService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/fac30ff/ironbank/moneyraven/ProfileConstants.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/github/fac30ff/ironbank/moneyraven/service/TransferMoneyService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/fac30ff/ironbank/moneyraven/controller/IronBankController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/github/fac30ff/ironbank/moneyraven/service/TransferMoneyProphecyBackend.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/github/fac30ff/ironbank/moneyraven/model/Bank.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/fac30ff/ironbank/moneyraven/dao/MoneyDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/github/fac30ff/ironbank/moneyraven/MoneyRavenApplication.java" />
-        <option value="$PROJECT_DIR$/iron-starter/build.gradle" />
         <option value="$PROJECT_DIR$/iron-starter/src/main/java/IronConfiguration.java" />
         <option value="$PROJECT_DIR$/iron-starter/src/main/resources/META-INF/spring.factories" />
         <option value="$PROJECT_DIR$/iron-starter/src/main/java/RavenListener.java" />
+        <option value="$PROJECT_DIR$/iron-starter/src/main/java/com/github/fac30ff/ironbank/ConditionOnProduction.java" />
+        <option value="$PROJECT_DIR$/iron-starter/src/main/java/com/github/fac30ff/ironbank/OnConditionProduction.java" />
+        <option value="$PROJECT_DIR$/iron-starter/src/main/java/com/github/fac30ff/ironbank/annotation/OnConditionProduction.java" />
+        <option value="$PROJECT_DIR$/iron-starter/src/main/java/com/github/fac30ff/ironbank/annotation/ConditionOnProduction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/fac30ff/ironbank/moneyraven/MoneyRavenApplication.java" />
+        <option value="$PROJECT_DIR$/iron-starter/src/main/java/com/github/fac30ff/ironbank/RavenProperties.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/iron-starter/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/iron-starter/src/main/java/com/github/fac30ff/ironbank/RavenListener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/fac30ff/ironbank/moneyraven/MyRavenListener.java" />
+        <option value="$PROJECT_DIR$/iron-starter/src/main/java/com/github/fac30ff/ironbank/annotation/ConditionalOnRaven.java" />
+        <option value="$PROJECT_DIR$/iron-starter/src/main/java/com/github/fac30ff/ironbank/IronConfiguration.java" />
+        <option value="$PROJECT_DIR$/iron-starter/src/main/java/com/github/fac30ff/ironbank/annotation/OnRavenConditional.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/fac30ff/ironbank/moneyraven/model/ProphetProperties.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/fac30ff/ironbank/moneyraven/model/Bank.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/fac30ff/ironbank/moneyraven/service/ProphetService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/fac30ff/ironbank/moneyraven/service/NameBasedProphetService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/fac30ff/ironbank/moneyraven/service/TransferMoneyService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/fac30ff/ironbank/moneyraven/service/TransferMoneyProphecyBackend.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/fac30ff/ironbank/moneyraven/service/WhiteListBasedProphetService.java" />
       </list>
     </option>
   </component>
@@ -238,6 +266,16 @@
               <item name="iron-starter" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ironbank" type="462c0819:PsiDirectoryNode" />
+              <item name="annotation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="boot-yourself" type="b2602c69:ProjectViewProjectNode" />
+              <item name="boot-yourself" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="iron-starter" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -289,6 +327,24 @@
               <item name="boot-yourself" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="moneyraven" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="boot-yourself" type="b2602c69:ProjectViewProjectNode" />
+              <item name="boot-yourself" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="moneyraven" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="boot-yourself" type="b2602c69:ProjectViewProjectNode" />
+              <item name="boot-yourself" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -308,10 +364,13 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="spring.boot" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.github.fac30ff.ironbank.annotation" />
       <recent name="com.github.fac30ff.ironbank.moneyraven.model" />
+      <recent name="com.github.fac30ff.ironbank" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -369,15 +428,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1549706767540</updated>
-      <workItem from="1549706771306" duration="6920000" />
+      <workItem from="1549706771306" duration="13807000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6920000" />
+    <option name="totallyTimeSpent" value="13807000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Learn" />
@@ -388,7 +448,7 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Build" weight="0.32936078" />
       <window_info anchor="bottom" id="Spring" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.3434453" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="CheckStyle" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
@@ -399,7 +459,7 @@
       <window_info anchor="bottom" id="JRebel Console" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -433,34 +493,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/fac30ff/ironbank/moneyraven/ProfileConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/fac30ff/ironbank/moneyraven/service/ProphetService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/fac30ff/ironbank/moneyraven/service/NameBasedProphetService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/fac30ff/ironbank/moneyraven/model/Bank.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/github/fac30ff/ironbank/moneyraven/dao/MoneyDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
@@ -477,47 +509,6 @@
     <entry file="file://$PROJECT_DIR$/gradlew">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/fac30ff/ironbank/moneyraven/service/TransferMoneyProphecyBackend.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/fac30ff/ironbank/moneyraven/service/TransferMoneyService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/fac30ff/ironbank/moneyraven/MoneyRavenApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#207#208#0" expanded="true" />
-            <element signature="e#273#274#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/fac30ff/ironbank/moneyraven/controller/IronBankController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#720#721#0" expanded="true" />
-            <element signature="e#779#780#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/spring.factories">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -528,55 +519,291 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/fac30ff/ironbank/moneyraven/MoneyRavenApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="53" column="8" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iron-starter/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/fac30ff/ironbank/moneyraven/MyRavenListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#263#264#0" expanded="true" />
+            <element signature="e#295#296#0" expanded="true" />
+            <element signature="e#436#437#0" expanded="true" />
+            <element signature="e#466#467#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/iron-starter/src/main/java/com/github/fac30ff/ironbank/RavenListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="48" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
+        <state relative-caret-position="396">
+          <caret line="19" column="44" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
           <folding>
-            <element signature="e#155#156#0" expanded="true" />
-            <element signature="e#185#186#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iron-starter/src/main/java/com/github/fac30ff/ironbank/RavenProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/iron-starter/src/main/java/com/github/fac30ff/ironbank/IronConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="272">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="e#95#96#0" expanded="true" />
             <element signature="e#130#131#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/iron-starter/build.gradle">
+    <entry file="file://$PROJECT_DIR$/iron-starter/src/main/java/com/github/fac30ff/ironbank/annotation/ConditionalOnRaven.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+        <state relative-caret-position="220">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/iron-starter/src/main/java/com/github/fac30ff/ironbank/annotation/ConditionOnProduction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
-          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
+    <entry file="file://$PROJECT_DIR$/iron-starter/src/main/java/com/github/fac30ff/ironbank/annotation/OnConditionProduction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        <state relative-caret-position="220">
+          <caret line="10" column="60" selection-start-line="10" selection-start-column="60" selection-end-line="10" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iron-starter/src/main/java/com/github/fac30ff/ironbank/annotation/OnRavenConditional.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="65" selection-start-line="14" selection-start-column="65" selection-end-line="14" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#256#257#0" expanded="true" />
+            <element signature="e#291#292#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/fac30ff/ironbank/moneyraven/model/ProphetProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/fac30ff/ironbank/moneyraven/model/Bank.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#158#159#0" expanded="true" />
+            <element signature="e#189#190#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/fac30ff/ironbank/moneyraven/controller/IronBankController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="19" column="46" lean-forward="true" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/fac30ff/ironbank/moneyraven/service/ProphetService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/fac30ff/ironbank/moneyraven/service/TransferMoneyService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="51" selection-start-line="3" selection-start-column="51" selection-end-line="3" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/fac30ff/ironbank/moneyraven/service/TransferMoneyProphecyBackend.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/fac30ff/ironbank/moneyraven/service/NameBasedProphetService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/fac30ff/ironbank/moneyraven/service/WhiteListBasedProphetService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#306#307#0" expanded="true" />
+            <element signature="e#381#382#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/fac30ff/ironbank/moneyraven/ProfileConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>scala-sdk-2.12.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8.0.121</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>iron-starter|boot-yourself</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8.0.181</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Gradle: antlr:antlr:2.7.7</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
